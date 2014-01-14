@@ -8,13 +8,3 @@ If you want to use a different backend or play with the code, prefer this origin
 https://github.com/GoogleCloudPlatform/solutions-mobile-backend-starter-android-client
 
 Disclaimer: This is not an official Google Product.
-
-## Products
-- [App Engine][1]
-- [Android][2]
-
-## Language
-- [Java][3]
-
-## APIs
-- [Google Cloud Endpoints][4]
