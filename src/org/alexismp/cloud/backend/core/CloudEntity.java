@@ -12,14 +12,15 @@
  * the License.
  */
 
-package com.google.cloud.backend.core;
+package org.alexismp.cloud.backend.core;
 
 import com.google.api.client.util.DateTime;
-import com.google.cloud.backend.android.mobilebackend.model.EntityDto;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.alexismp.cloud.backend.android.mobilebackend.model.EntityDto;
 
 /**
  * A class that represents a cloud entity on App Engine Datastore.

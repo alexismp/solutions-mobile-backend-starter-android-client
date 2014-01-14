@@ -12,11 +12,9 @@
  * the License.
  */
 
-package com.google.cloud.backend.core;
+package org.alexismp.cloud.backend.core;
 
 import com.google.api.client.util.DateTime;
-import com.google.cloud.backend.core.CloudQuery.Order;
-import com.google.cloud.backend.core.CloudQuery.Scope;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,6 +26,9 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import org.alexismp.cloud.backend.core.CloudQuery.Order;
+import org.alexismp.cloud.backend.core.CloudQuery.Scope;
 
 /**
  * Cloud Backend API class that provides pub/sub messaging feature in addition

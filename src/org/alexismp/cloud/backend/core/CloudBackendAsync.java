@@ -12,12 +12,9 @@
  * the License.
  */
 
-package com.google.cloud.backend.core;
+package org.alexismp.cloud.backend.core;
 
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
-import com.google.cloud.backend.GCMIntentService;
-import com.google.cloud.backend.core.CloudQuery.Order;
-import com.google.cloud.backend.core.CloudQuery.Scope;
 
 import android.app.Activity;
 import android.app.Application;
@@ -32,6 +29,10 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+
+import org.alexismp.cloud.backend.GCMIntentService;
+import org.alexismp.cloud.backend.core.CloudQuery.Order;
+import org.alexismp.cloud.backend.core.CloudQuery.Scope;
 
 /**
  * Cloud Backend API class that provides asynchronous APIs in addition to

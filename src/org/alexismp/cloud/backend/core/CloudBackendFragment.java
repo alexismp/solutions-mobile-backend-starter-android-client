@@ -12,10 +12,9 @@
  * the License.
  */
 
-package com.google.cloud.backend.core;
+package org.alexismp.cloud.backend.core;
 
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
-import com.google.cloud.backend.GCMIntentService;
 
 import android.accounts.AccountManager;
 import android.app.Activity;
@@ -30,6 +29,8 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import java.util.List;
+
+import org.alexismp.cloud.backend.GCMIntentService;
 
 /**
  * An {@link Fragment} class that allows hosting Activities to access the

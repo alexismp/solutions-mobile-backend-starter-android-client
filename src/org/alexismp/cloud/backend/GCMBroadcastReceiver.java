@@ -1,4 +1,4 @@
-package com.google.cloud.backend;
+package org.alexismp.cloud.backend;
 
 import android.app.Activity;
 import android.content.ComponentName;

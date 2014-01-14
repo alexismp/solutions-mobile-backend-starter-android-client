@@ -12,7 +12,7 @@
  * the License.
  */
 
-package com.google.cloud.backend.core;
+package org.alexismp.cloud.backend.core;
 
 import com.google.api.client.googleapis.json.GoogleJsonError;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;

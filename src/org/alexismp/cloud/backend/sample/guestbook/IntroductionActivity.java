@@ -1,6 +1,6 @@
-package com.google.cloud.backend.sample.guestbook;
+package org.alexismp.cloud.backend.sample.guestbook;
 
-import com.google.cloud.backend.R;
+import org.alexismp.cloud.backend.R;
 
 import android.app.Activity;
 import android.app.Fragment;

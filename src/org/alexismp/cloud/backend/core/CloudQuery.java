@@ -12,9 +12,10 @@
  * the License.
  */
 
-package com.google.cloud.backend.core;
+package org.alexismp.cloud.backend.core;
 
-import com.google.cloud.backend.android.mobilebackend.model.QueryDto;
+import org.alexismp.cloud.backend.android.mobilebackend.model.QueryDto;
+
 import com.google.gson.Gson;
 
 import android.util.Base64;

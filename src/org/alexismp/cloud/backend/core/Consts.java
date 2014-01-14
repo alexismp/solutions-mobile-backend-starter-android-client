@@ -12,7 +12,7 @@
  * the License.
  */
 
-package com.google.cloud.backend.core;
+package org.alexismp.cloud.backend.core;
 
 /**
  * A class to hold hard coded constants. Developers may modify the values based
@@ -23,17 +23,17 @@ public interface Consts {
     /**
      * Set Project ID of your Google APIs Console Project.
      */
-    public static final String PROJECT_ID = "*** ENTER YOUR PROJECT ID ***";
+    public static final String PROJECT_ID = "mbs2alexis";
 
     /**
      * Set Project Number of your Google APIs Console Project.
      */
-    public static final String PROJECT_NUMBER = "*** ENTER YOUR PROJECT NUMBER ***";
+    public static final String PROJECT_NUMBER = "319378026542";
 
     /**
      * Set your Web Client ID for authentication at backend.
      */
-    public static final String WEB_CLIENT_ID = "*** ENTER YOUR WEB CLIENT ID ***";
+    public static final String WEB_CLIENT_ID = "319378026542-66rdn9r20aedp3l0ab4aevsha7c2ipap.apps.googleusercontent.com";
 
     /**
      * Set default user authentication enabled or disabled.

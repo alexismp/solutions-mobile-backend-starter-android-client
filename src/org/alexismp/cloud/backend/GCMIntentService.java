@@ -12,7 +12,7 @@
  * the License.
  */
 
-package com.google.cloud.backend;
+package org.alexismp.cloud.backend;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
@@ -27,9 +27,9 @@ import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-import com.google.cloud.backend.core.Consts;
-
 import java.io.IOException;
+
+import org.alexismp.cloud.backend.core.Consts;
 
 /**
  * This class manages Google Cloud Messaging push notifications and CloudQuery

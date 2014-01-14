@@ -12,7 +12,7 @@
  * the License.
  */
 
-package com.google.cloud.backend.core;
+package org.alexismp.cloud.backend.core;
 
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
@@ -20,10 +20,6 @@ import com.google.api.client.http.ExponentialBackOffPolicy;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestInitializer;
 import com.google.api.client.json.gson.GsonFactory;
-import com.google.cloud.backend.android.mobilebackend.Mobilebackend;
-import com.google.cloud.backend.android.mobilebackend.model.EntityDto;
-import com.google.cloud.backend.android.mobilebackend.model.EntityListDto;
-import com.google.cloud.backend.android.mobilebackend.model.QueryDto;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -32,6 +28,11 @@ import android.util.Log;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
+
+import org.alexismp.cloud.backend.android.mobilebackend.Mobilebackend;
+import org.alexismp.cloud.backend.android.mobilebackend.model.EntityDto;
+import org.alexismp.cloud.backend.android.mobilebackend.model.EntityListDto;
+import org.alexismp.cloud.backend.android.mobilebackend.model.QueryDto;
 
 /**
  * Base Cloud Backend API class that provides CRUD operation and query operation

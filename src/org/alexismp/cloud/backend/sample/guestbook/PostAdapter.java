@@ -1,7 +1,6 @@
-package com.google.cloud.backend.sample.guestbook;
+package org.alexismp.cloud.backend.sample.guestbook;
 
-import com.google.cloud.backend.R;
-import com.google.cloud.backend.core.CloudEntity;
+import org.alexismp.cloud.backend.R;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,6 +12,8 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Locale;
+
+import org.alexismp.cloud.backend.core.CloudEntity;
 
 /**
  * This ArrayAdapter uses CloudEntities as items and displays them as a post in

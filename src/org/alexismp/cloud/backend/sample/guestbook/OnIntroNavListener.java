@@ -1,4 +1,4 @@
-package com.google.cloud.backend.sample.guestbook;
+package org.alexismp.cloud.backend.sample.guestbook;
 
 /**
  * Listener used by the introductory Fragments to interact with each other and

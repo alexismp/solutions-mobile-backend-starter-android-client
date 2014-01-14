@@ -12,13 +12,13 @@
  * the License.
  */
 
-package com.google.cloud.backend.core;
-
-import com.google.cloud.backend.android.mobilebackend.model.FilterDto;
+package org.alexismp.cloud.backend.core;
 
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+
+import org.alexismp.cloud.backend.android.mobilebackend.model.FilterDto;
 
 /**
  * A filter class for a {@link CloudQuery}. See

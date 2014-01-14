@@ -12,16 +12,9 @@
  * the License.
  */
 
-package com.google.cloud.backend.sample.guestbook;
+package org.alexismp.cloud.backend.sample.guestbook;
 
-import com.google.cloud.backend.R;
-import com.google.cloud.backend.core.CloudBackendFragment;
-import com.google.cloud.backend.core.CloudBackendFragment.OnListener;
-import com.google.cloud.backend.core.CloudCallbackHandler;
-import com.google.cloud.backend.core.CloudEntity;
-import com.google.cloud.backend.core.CloudQuery.Order;
-import com.google.cloud.backend.core.CloudQuery.Scope;
-import com.google.cloud.backend.core.Consts;
+import org.alexismp.cloud.backend.R;
 
 import android.app.Activity;
 import android.app.FragmentManager;
@@ -47,6 +40,14 @@ import android.widget.Toast;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
+
+import org.alexismp.cloud.backend.core.CloudBackendFragment;
+import org.alexismp.cloud.backend.core.CloudCallbackHandler;
+import org.alexismp.cloud.backend.core.CloudEntity;
+import org.alexismp.cloud.backend.core.Consts;
+import org.alexismp.cloud.backend.core.CloudBackendFragment.OnListener;
+import org.alexismp.cloud.backend.core.CloudQuery.Order;
+import org.alexismp.cloud.backend.core.CloudQuery.Scope;
 
 /**
  * Sample Guestbook app with Mobile Backend Starter.
