@@ -22,7 +22,7 @@ import org.alexismp.cloud.backend.core.CloudEntity;
  */
 public class PostAdapter extends ArrayAdapter<CloudEntity> {
 
-    private static final SimpleDateFormat SDF = new SimpleDateFormat("HH:mm:ss ", Locale.US);
+    private static final SimpleDateFormat SDF = new SimpleDateFormat("HH:mm dd/MM/yy", Locale.US);
 
     private LayoutInflater mInflater;
 
@@ -71,7 +71,7 @@ public class PostAdapter extends ArrayAdapter<CloudEntity> {
      */
     private String getAuthor(CloudEntity post) {
         if (post.getCreatedBy() != null) {
-            return " " + post.getCreatedBy().replaceFirst("@.*", "");
+        	return " xxx" + post.getCreatedBy().replaceFirst("@.*", "").substring(2);
         } else {
             return "<anonymous>";
         }
